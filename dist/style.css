@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad:wght@400;500&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Afacad', sans-serif;
+}
+
+html {
+  background: url('../assets/images/background.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Header */
+
+header {
+  color: white;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Search div */
+
+form > * {
+  vertical-align: bottom;
+}
+
+.search-div > * {
+  height: 35px;
+  vertical-align: bottom;
+}
+
+.search-input {
+  width: 300px;
+  padding: 10px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+
+.fa-solid {
+  font-size: 35px;
+  margin-right: 10px;
+  color: #ffff;
+}
+
+.submit-button {
+  margin-left: 15px;
+  height: 35px;
+  width: 50px;
+  cursor: pointer;
+}
+
+/* Content */
+#content {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Current weather */
+.weather {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 800px;
+  height: 550px;
+  border-radius: 15px;
+  background-color: rgba(0, 0, 0, 0.61);
+  backdrop-filter: blur(1px);
+}
+
+.location {
+  text-align: center;
+  font-size: 64px;
+  color: white;
+  word-wrap: break-word; /* or overflow-wrap: break-word; */
+  max-width: 100%; /* Ensures that the text doesn't overflow the container */
+}
+
+
+.error-msg {
+  font-size: 32px;
+  text-align: center;
+}
+
+.date-info {
+  font-size: 24px;
+  color: white;
+}
+
+/* Temperature info */
+.weather-info {
+  display: flex;
+  flex-direction: row;
+}
+
+.temperature-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.weather-img {
+  width: 120px;
+}
+
+.temperature-value {
+  font-size: 48px;
+  color: white;
+}
+
+/* Stats div */
+.stats-div {
+  display: flex;
+  flex-direction: row;
+}
+
+.stats {
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  color: white;
+}
+
+/* Forecast */
+.forecast-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.forecast {
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  text-align: center;
+}
+
+.condition-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
